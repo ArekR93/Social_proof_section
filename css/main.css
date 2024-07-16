@@ -8,4 +8,75 @@
 
 body {
   font-size: 15px;
+  position: relative;
+  font-family: "League Spartan", sans-serif;
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 1200px;
+}
+
+header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+header .header-pattern {
+  z-index: -1;
+  background-image: url(../images/bg-pattern-top-mobile.svg);
+  height: 240px;
+  width: 100%;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header .header-title {
+  margin-top: 80px;
+  margin-bottom: 0.5em;
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: hsl(300, 43%, 22%);
+  line-height: 35px;
+}
+header .header-description {
+  line-height: 20px;
+  text-align: center;
+  font-size: 1.1rem;
+  color: hsl(303, 10%, 53%);
+}
+
+.rates {
+  display: flex;
+  justify-content: center;
+}
+.rates .rates-box {
+  margin-top: 2em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rates .rates-box .rate {
+  margin-bottom: 1em;
+  width: 100%;
+  padding: 1em 2em;
+  border-radius: 10px;
+  background-color: hsl(300, 24%, 96%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rates .rates-box .rate .star-box {
+  margin-bottom: 0.5em;
+}
+.rates .rates-box .rate .star-box img {
+  margin-right: 0.2em;
+}
+.rates .rates-box .rate .info {
+  font-weight: bold;
+  color: hsl(300, 43%, 22%);
 }/*# sourceMappingURL=main.css.map */
